@@ -31,7 +31,7 @@ public class Main
 
         do
         {
-            robot.mouseMove(993, 446);
+            robot.mouseMove(884, 380);
             robot.mousePress(16);
             robot.mouseRelease(16);
             robot.delay(60000);
@@ -51,17 +51,17 @@ public class Main
             robot.delay(100);
             robot.keyRelease(48);
             robot.delay(17000);
-            robot.mouseMove(743, 506);
+            robot.mouseMove(619, 448);
             robot.mousePress(16);
             robot.mouseRelease(16);
             robot.delay(3000);
-            robot.mouseMove(688, 471);
+            robot.mouseMove(552, 414);
             robot.mousePress(16);
             robot.mouseRelease(16);
             robot.delay(1700);
-            robot.mouseMove(902, 583);
-            robot.mousePress(16);
-            robot.mouseRelease(16);
+            robot.keyPress(32);
+            robot.delay(100);
+            robot.keyRelease(32);
             robot.delay(5000);
         } while(true);
     }
